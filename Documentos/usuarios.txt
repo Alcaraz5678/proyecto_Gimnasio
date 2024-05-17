@@ -1,1 +1,2 @@
-Nombre: Juan, Documento: 12345, Contraseña: juan123
+Nombre: Juan, Documento: 123, Contraseña: juan123
+Nombre: Andrea, Documento: 456, Contraseña: andrea456

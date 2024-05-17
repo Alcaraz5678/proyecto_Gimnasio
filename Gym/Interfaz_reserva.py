@@ -2,7 +2,7 @@ from Usuario import Usuario
 import tkinter as tk
 from tkinter import messagebox
 from Almacen_informacion import AlmacenInformacion
-from Reserva import Reserva
+from Actividad import Actividad
 
 
 class InterfazReserva:
@@ -65,6 +65,8 @@ class InterfazReserva:
         reservas_boton = tk.Button(self.ventana_actividad, text="Reservar", command=self.reservar_actividad)
         reservas_boton.pack(pady=20)
 
+    def mostrar_actividades(self, i: Actividad):
+        messagebox.showinfo("Reserva", f"La reserva número {i.id} fue añadida con éxito!")
     def reservar_actividad(self):
         id_actividad = int(self.id_entry.get())
         try:
@@ -74,7 +76,7 @@ class InterfazReserva:
                     actividad = True
                     self.ventana_actividad.destroy()
                     self.ventana_reserva.destroy()
-                    messagebox.showinfo("Reserva", f"La reserva número {i.id} fue añadida con éxito!")
+                    self.mostrar_actividades(i)
                     self.almacen.id_reserva_actual += 1
                     # escribir archivo de las reservas
                     with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "a") as file:

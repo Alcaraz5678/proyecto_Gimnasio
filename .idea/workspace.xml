@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787e3ec7-505d-49f5-aa5d-fe6f4b43e57a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Documentos/actividades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentos/usuarios.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Actividad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Almacen_informacion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Horario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Interfaz_principal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Reserva.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Usuario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="787e3ec7-505d-49f5-aa5d-fe6f4b43e57a" name="Changes" comment="third commit: Interfaz Reserva">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentos/reservas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/reservas.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentos/usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/usuarios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +99,28 @@
       <option name="presentableId" value="Default" />
       <updated>1715910100003</updated>
     </task>
+    <task id="LOCAL-00001" summary="Second commit: Interfaz principal">
+      <option name="closed" value="true" />
+      <created>1715920773486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715920773486</updated>
+    </task>
+    <task id="LOCAL-00002" summary="third commit: Interfaz Reserva">
+      <option name="closed" value="true" />
+      <created>1715950285453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715950285453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit: Interfaz principal" />
+    <MESSAGE value="third commit: Interfaz Reserva" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit: Interfaz Reserva" />
   </component>
 </project>

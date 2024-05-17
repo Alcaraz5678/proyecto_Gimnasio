@@ -1,2 +1,1 @@
-Id_reserva: 1, Id_actividad: 8, Documento: 12345
-Id_reserva: 1, Id_actividad: 10, Documento: 12345
+Id_reserva: 1, Id_actividad: 2, Documento: 456
