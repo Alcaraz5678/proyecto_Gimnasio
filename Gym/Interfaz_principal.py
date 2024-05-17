@@ -72,7 +72,7 @@ class InterfazInicial:
                     usuario_encontrado = True
                     self.ventana_ingreso.destroy()
                     messagebox.showinfo("Iniciar Sesión", f"Bienvenido {i.nombre}!")
-                    interfaz_reserva = InterfazReserva(i)
+                    interfaz_reserva = InterfazReserva(i, self.almacen)
                     break
             if not usuario_encontrado:
                 raise ValueError("Usuario o contraseña incorrectos.")
@@ -95,5 +95,6 @@ class InterfazInicial:
 
         self.ventana_registro.destroy()
         messagebox.showinfo("Usuario registrado", "Registro exitoso!")
+
     def visualizar(self):
         self.ventana_principal.mainloop()

@@ -1,6 +1,7 @@
 from Usuario import Usuario
 from Actividad import Actividad
 from Reserva import Reserva
+from Horario import Horario
 
 
 class AlmacenInformacion:
@@ -9,9 +10,9 @@ class AlmacenInformacion:
         self.usuarios: [Usuario] = []
         self.actividades: [Actividad] = []
         self.reservas: [Reserva] = []
+        self.id_reserva_actual: int = 0
 
     def leer_usuario(self):
-        # leer el archivo de los usuarios y crear los objetos, y almacenarlos
         try:
             with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/usuarios.txt", "r") as file:
                 for line in file:
@@ -26,14 +27,38 @@ class AlmacenInformacion:
             print("El archivo usuarios.txt no existe.")
 
     def leer_actividades(self):
-        # leer el archivo donde estan todas las actividades, crear los objetos y almacenar
-        pass
+        try:
+            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/actividades.txt", "r") as file:
+                for line in file:
+                    parts = line.strip().split(", ")
+                    if len(parts) == 7:
+                        nombre = parts[0].split(": ")[1]
+                        id = int(parts[1].split(": ")[1])
+                        hora_inicio = int(parts[2].split(": ")[1].split(":")[0])
+                        hora_fin = int(parts[3].split(": ")[1].split(":")[0])
+                        horario = Horario(hora_inicio, hora_fin)
+                        actividad = Actividad(id, nombre, horario)
+                        self.actividades.append(actividad)
+        except FileNotFoundError:
+            print("El archivo actividades.txt no existe.")
 
     def leer_reserva(self):
-        # leer el archivo de reservas, crear el objeto Reserva, buscar el usuario en self.usuarios
-        # agregar reserva a ese usuario
-        pass
+        try:
+            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas.txt", "r") as file:
+                for line in file:
+                    parts = line.strip().split(", ")
+                    id_reserva = int(parts[0].split(": ")[1])
+                    id_actividad = int(parts[1].split(": ")[1])
+                    documento = parts[2].split(": ")[1]
 
-# archivo usuaario: nombre, doc, contr
-# reserva: id_reserva, id_actividad, doc_usuario
-# actividad: nombre, id, hora_inicio, hora_fin, año, mes, dia
+                    reserva = Reserva(id_reserva, id_actividad, int(documento))
+                    self.reservas.append(reserva)
+                    # añadir a ese usuario el objeto de Reserva
+                    for u in self.usuarios:
+                        if u.documento == int(documento):
+                            u.reservas.append(reserva)
+
+        except FileNotFoundError:
+            print("El archivo de reservas no existe.")
+        except Exception as e:
+            print(f"Error al leer el archivo de reservas: {e}")
