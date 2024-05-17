@@ -1,1 +1,4 @@
-Id_reserva: 1, Id_actividad: 2, Documento: 456
+Id_reserva: 1, Id_actividad: 1, Documento: 123, Dia: 3, Mes: 5, Año: 2024
+Id_reserva: 1, Id_actividad: 2, Documento: 123, Dia: 3, Mes: 4, Año: 2021
+Id_reserva: 1, Id_actividad: 2, Documento: 123, Dia: 1, Mes: 1, Año: 2024
+Id_reserva: 1, Id_actividad: 9, Documento: 123, Dia: 1, Mes: 1, Año: 2022

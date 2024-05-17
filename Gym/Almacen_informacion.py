@@ -2,6 +2,7 @@ from Usuario import Usuario
 from Actividad import Actividad
 from Reserva import Reserva
 from Horario import Horario
+from Fecha import Fecha
 
 
 class AlmacenInformacion:
@@ -49,15 +50,18 @@ class AlmacenInformacion:
                     parts = line.strip().split(", ")
                     id_reserva = int(parts[0].split(": ")[1])
                     id_actividad = int(parts[1].split(": ")[1])
-                    documento = parts[2].split(": ")[1]
+                    documento = int(parts[2].split(": ")[1])
+                    dia = parts[3].split(": ")[1]
+                    mes = parts[4].split(": ")[1]
+                    ano = parts[5].split(": ")[1]
 
-                    reserva = Reserva(id_reserva, id_actividad, int(documento))
+                    fecha = Fecha(dia, mes, ano)
+                    reserva = Reserva(id_reserva, id_actividad, documento, fecha)
                     self.reservas.append(reserva)
                     # añadir a ese usuario el objeto de Reserva
                     for u in self.usuarios:
                         if u.documento == int(documento):
                             u.reservas.append(reserva)
-
         except FileNotFoundError:
             print("El archivo de reservas no existe.")
         except Exception as e:
