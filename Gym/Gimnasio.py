@@ -17,7 +17,7 @@ class Gimnasio:
 
     def get_id_reserva(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_actividades.txt", "r") as file:
+            with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_actividades.txt", "r") as file:
                 line_count = sum(1 for line in file)
                 return line_count + 1
         except FileNotFoundError:
@@ -25,7 +25,7 @@ class Gimnasio:
 
     def leer_usuario(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/usuarios.txt", "r") as file:
+            with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/usuarios.txt", "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     if len(parts) == 3:
@@ -39,7 +39,7 @@ class Gimnasio:
 
     def leer_actividades(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/actividades.txt", "r") as file:
+            with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/actividades.txt", "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     if len(parts) == 4:
@@ -55,7 +55,7 @@ class Gimnasio:
 
     def leer_reserva_act(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_actividades.txt", "r") as file:
+            with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_actividades.txt", "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
                     id_reserva = int(parts[0].split(": ")[1])
@@ -79,7 +79,7 @@ class Gimnasio:
 
     def leer_reserva_bloque(self):
         try:
-            with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_bloques.txt", "r") as file:
+            with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_bloques.txt", "r") as file:
                 for line in file:
                     parts = line.strip().split(", ")
 

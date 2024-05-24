@@ -90,7 +90,7 @@ class InterfazInicial:
             messagebox.showerror("Error", "Todos los campos son obligatorios!")
             return
 
-        with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/usuarios.txt", "a") as file:
+        with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/usuarios.txt", "a") as file:
             file.write(f"Nombre: {nombre}, Documento: {documento}, Contraseña: {contr}\n")
 
         self.ventana_registro.destroy()

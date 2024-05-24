@@ -147,8 +147,9 @@ class InterfazReserva:
                 actividad = True
                 self.ventana_bloques.destroy()
                 self.ventana_reserva.destroy()
+                self.mostrar_bloques(id_bloque)
                 # escribir archivo de las reservas
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_bloques.txt",
+                with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_bloques.txt",
                           "a") as file:
                     file.write(f"Id_bloque: {id_bloque}, Hora_inicio: {self.ids[id_bloque][0]}, "
                                f"Hora_fin: {self.ids[id_bloque][1]}, Documento: {self.usuario.documento}, "
@@ -156,7 +157,7 @@ class InterfazReserva:
             if not actividad:
                 raise ValueError("Id no encontrado!.")
         except ValueError as e:
-            messagebox.showerror("Error", str(e))
+            messagebox.showerror("Error",str(e))
 
     def generar_bloques_gimnasio(self):
         bloques = []
@@ -176,6 +177,9 @@ class InterfazReserva:
 
     def mostrar_actividades(self, i: Actividad):
         messagebox.showinfo("Reserva", f"La actividad número {i.id} fue añadida con éxito!")
+
+    def mostrar_bloques(self, id_bloque):
+        messagebox.showinfo("Reserva", f"La reserva de gimnasio número {id_bloque} fue añadida con éxito!")
 
     def interfaz_fecha(self, ventana):
         self.ventana_fecha = tk.Toplevel(ventana)
@@ -228,7 +232,7 @@ class InterfazReserva:
                     self.mostrar_actividades(i)
                     self.almacen.id_reserva_actual = self.almacen.get_id_reserva()
                     # escribir archivo de las reservas
-                    with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_actividades.txt", "a") as file:
+                    with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_actividades.txt", "a") as file:
                         file.write(f"Id_reserva: {self.almacen.id_reserva_actual}, Id_actividad: {id_actividad}, "
                                    f"Documento: {self.usuario.documento}, Dia: {dia}, Mes: {mes}, Año: {ano}\n")
                     break
@@ -267,11 +271,11 @@ class InterfazReserva:
                 messagebox.showinfo("Cancelar Reserva", f"La reserva número {id_reserva} "
                                                         f"fue cancelada con éxito!")
 
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_actividades.txt", "r") as file:
+                with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_actividades.txt", "r") as file:
                     lineas = file.readlines()
 
                 # reescribir el archivo sin la línea de la reserva cancelada
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_actividades.txt", "w") as file:
+                with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_actividades.txt", "w") as file:
                     for linea in lineas:
                         if not linea.startswith(
                                 f"Id_reserva: {reserva_a_cancelar.id_reserva}, Id_actividad: "
@@ -297,11 +301,11 @@ class InterfazReserva:
                 messagebox.showinfo("Cancelar Reserva", f"La reserva número {id_reserva} "
                                                         f"fue cancelada con éxito!")
 
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_bloques.txt", "r") as file:
+                with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_bloques.txt", "r") as file:
                     lineas = file.readlines()
 
                 # reescribir el archivo sin la línea de la reserva cancelada
-                with open("/home/lia/PycharmProjects/Gimnasio_POO/Documentos/reservas_bloques.txt", "w") as file:
+                with open("C:/Users/user/OneDrive/Documents/codigo_poo/Documentos/reservas_bloques.txt", "w") as file:
                     for linea in lineas:
                         if not linea.startswith(
                                 f"Id_bloque: {reserva_a_cancelar.id_reserva}"):

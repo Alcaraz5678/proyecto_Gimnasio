@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787e3ec7-505d-49f5-aa5d-fe6f4b43e57a" name="Changes" comment="fifth commit: Calendar">
-      <change afterPath="$PROJECT_DIR$/Documentos/reservas_actividades.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentos/reservas_bloques.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Gimnasio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Reserva_actividad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gym/Reserva_bloque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gimnasio_POO.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentos/actividades.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/actividades.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentos/reservas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentos/reservas_actividades.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/reservas_actividades.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentos/reservas_bloques.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/reservas_bloques.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Documentos/usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documentos/usuarios.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gym/Almacen_informacion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gym/Calendario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Calendario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gym/Gimnasio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Gimnasio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gym/Interfaz_principal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Interfaz_principal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Interfaz_reserva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gym/Reserva.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Reserva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gym/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/Usuario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gym/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gym/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +46,9 @@
     &quot;accountId&quot;: &quot;7538d117-d179-4d35-983e-953e2e061c16&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -67,12 +65,19 @@
     "Python.__init__.executor": "Run",
     "Python.app.executor": "Run",
     "Python.init.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/lia/PycharmProjects/Gimnasio_POO/Gym/__init__.py",
+    "last_opened_file_path": "C:/Users/user/OneDrive/Documents/codigo_poo",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\OneDrive\Documents\codigo_poo\imagenes" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.init">
     <configuration name="Reserva_actividad" type="PythonConfigurationType" factoryName="Python">
       <module name="Gimnasio_POO" />
@@ -131,7 +136,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
