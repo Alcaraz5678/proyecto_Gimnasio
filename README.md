@@ -1,11 +1,12 @@
-# Sistema de reserva para el gimnasio de la universidad de medell韓
+# Sistema de reserva para el gimnasio de la universidad de medell铆n
 
 
-EL presente documento describe el dise駉 e implementaci髇 de un sistema de reservas para el gimnasio de la Universidad de Medell韓. El objetivo general del proyecto es desarrollar el sistema de reservas del gimnasio de la universidad utilizando los principios de la programaci髇 orientada a objetos.
+EL presente documento describe el dise帽o e implementaci贸n de un sistema de reservas para el gimnasio de la Universidad de Medell铆n. El objetivo general del proyecto es desarrollar el sistema de reservas del gimnasio de la universidad utilizando los principios de la programaci贸n orientada a objetos.
 
 
-Dentro del proyecto no se tiene pensado llevar el aplicativo del sistema a una escala real, ya que para esto se necesitarian de conceptos aun mas avanzados que no hemos visto hasta el momento, ademas contamos con la limitaci髇 del tiempo, cosa que nos juega en contra, ya que la duraci髇 del desarrollo de un proyecto que requiere llevar la idea a la implementacion real, es bastante larga
+Dentro del proyecto no se tiene pensado llevar el aplicativo del sistema a una escala real, ya que para esto se necesitarian de conceptos aun mas avanzados que no hemos visto hasta el momento, ademas contamos con la limitaci贸n del tiempo, cosa que nos juega en contra, ya que la duraci贸n del desarrollo de un proyecto que requiere llevar la idea a la implementacion real, es bastante larga
 
 
+Modelo de clases actualizado:
 
 ![img.png](imagenes/img.png)
