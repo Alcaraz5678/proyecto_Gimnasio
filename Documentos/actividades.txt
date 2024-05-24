@@ -1,18 +1,14 @@
-Nombre: Yoga, Id: 1, Hora_inicio: 08:00, Hora_fin: 09:00, Año: 2024, Mes: 05, Dia: 17
-Nombre: Spinning, Id: 2, Hora_inicio: 09:30, Hora_fin: 10:30, Año: 2024, Mes: 05, Dia: 17
-Nombre: Pilates, Id: 3, Hora_inicio: 11:00, Hora_fin: 12:00, Año: 2024, Mes: 05, Dia: 17
-Nombre: Zumba, Id: 4, Hora_inicio: 17:00, Hora_fin: 18:00, Año: 2024, Mes: 05, Dia: 17
-Nombre: CrossFit, Id: 5, Hora_inicio: 18:30, Hora_fin: 19:30, Año: 2024, Mes: 05, Dia: 17
-Nombre: BodyPump, Id: 6, Hora_inicio: 20:00, Hora_fin: 21:00, Año: 2024, Mes: 05, Dia: 17
-Nombre: Kickboxing, Id: 7, Hora_inicio: 08:00, Hora_fin: 09:00, Año: 2024, Mes: 05, Dia: 18
-Nombre: TRX, Id: 8, Hora_inicio: 09:30, Hora_fin: 10:30, Año: 2024, Mes: 05, Dia: 18
-Nombre: HIIT, Id: 9, Hora_inicio: 11:00, Hora_fin: 12:00, Año: 2024, Mes: 05, Dia: 18
-Nombre: Step, Id: 10, Hora_inicio: 17:00, Hora_fin: 18:00, Año: 2024, Mes: 05, Dia: 18
-Nombre: Boxeo, Id: 11, Hora_inicio: 18:30, Hora_fin: 19:30, Año: 2024, Mes: 05, Dia: 18
-Nombre: Aeróbicos, Id: 12, Hora_inicio: 20:00, Hora_fin: 21:00, Año: 2024, Mes: 05, Dia: 18
-Nombre: Yoga, Id: 13, Hora_inicio: 08:00, Hora_fin: 09:00, Año: 2024, Mes: 05, Dia: 19
-Nombre: Spinning, Id: 14, Hora_inicio: 09:30, Hora_fin: 10:30, Año: 2024, Mes: 05, Dia: 19
-Nombre: Pilates, Id: 15, Hora_inicio: 11:00, Hora_fin: 12:00, Año: 2024, Mes: 05, Dia: 19
-Nombre: Zumba, Id: 16, Hora_inicio: 17:00, Hora_fin: 18:00, Año: 2024, Mes: 05, Dia: 19
-Nombre: CrossFit, Id: 17, Hora_inicio: 18:30, Hora_fin: 19:30, Año: 2024, Mes: 05, Dia: 19
-Nombre: BodyPump, Id: 18, Hora_inicio: 20:00, Hora_fin: 21:00, Año: 2024, Mes: 05, Dia: 19
+Nombre: Yoga, Id: 1, Hora_inicio: 06:00, Hora_fin: 08:00
+Nombre: Spinning, Id: 2, Hora_inicio: 08:00, Hora_fin: 10:00
+Nombre: Pilates, Id: 3, Hora_inicio: 10:00, Hora_fin: 12:00
+Nombre: Zumba, Id: 4, Hora_inicio: 12:00, Hora_fin: 14:00
+Nombre: CrossFit, Id: 5, Hora_inicio: 14:00, Hora_fin: 16:00
+Nombre: BodyPump, Id: 6, Hora_inicio: 16:00, Hora_fin: 18:00
+Nombre: Kickboxing, Id: 7, Hora_inicio: 18:00, Hora_fin: 20:00
+Nombre: TRX, Id: 8, Hora_inicio: 06:00, Hora_fin: 08:00
+Nombre: HIIT, Id: 9, Hora_inicio: 08:00, Hora_fin: 10:00
+Nombre: Step, Id: 10, Hora_inicio: 10:00, Hora_fin: 12:00
+Nombre: Boxeo, Id: 11, Hora_inicio: 12:00, Hora_fin: 14:00
+Nombre: Aeróbicos, Id: 12, Hora_inicio: 14:00, Hora_fin: 16:00
+Nombre: Yoga, Id: 13, Hora_inicio: 16:00, Hora_fin: 18:00
+Nombre: Spinning, Id: 14, Hora_inicio: 18:00, Hora_fin: 20:00

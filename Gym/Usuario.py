@@ -1,5 +1,4 @@
-from Reserva import Reserva
-
+from Reserva_actividad import ReservaActividad
 
 class Usuario:
 
@@ -7,4 +6,4 @@ class Usuario:
         self.nombre: str = nombre
         self.ctr: str = ctr
         self.documento: int = documento
-        self.reservas: [Reserva] = []
+        self.reservas: [ReservaActividad] = []

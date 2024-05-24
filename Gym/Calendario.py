@@ -26,6 +26,7 @@ class CalendarioActividades(tk.Tk):
 
     def mostrar_actividades(self, fecha):
         self.lista_actividades.delete(0, tk.END)
+        print(self.actividades_por_fecha)
         if fecha in self.actividades_por_fecha:
             actividades = self.actividades_por_fecha[fecha]
             for actividad in actividades:

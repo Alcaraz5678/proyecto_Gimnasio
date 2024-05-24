@@ -1,11 +1,11 @@
 import tkinter as tk
 from tkinter import messagebox
-from Almacen_informacion import AlmacenInformacion
+from Gimnasio import Gimnasio
 from Interfaz_reserva import InterfazReserva
 
 
 class InterfazInicial:
-    def __init__(self, almacen: AlmacenInformacion):
+    def __init__(self, almacen: Gimnasio):
         self.ventana_principal = tk.Tk()
         self.ventana_principal.title("Interfaz Inicial")
         self.centrar_ventana(self.ventana_principal,300, 200)

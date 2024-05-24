@@ -1,10 +1,11 @@
 from Interfaz_principal import InterfazInicial
-from Almacen_informacion import AlmacenInformacion
+from Gimnasio import Gimnasio
 
 if __name__ == "__main__":
-    datos = AlmacenInformacion()
+    datos = Gimnasio()
     datos.leer_usuario()
     datos.leer_actividades()
-    datos.leer_reserva()
+    datos.leer_reserva_act()
+    datos.leer_reserva_bloque()
     app = InterfazInicial(datos)
     app.visualizar()
